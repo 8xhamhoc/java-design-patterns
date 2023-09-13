@@ -3,8 +3,7 @@ package org.quangphan.java.design.patterns.builder_pattern.vehicle;
 public class ClientDemo {
 
     public static void main(String[] args) {
-
-
+        
         Builder builder = new CarBuilder();
         Director director = new CarDirector();
 
